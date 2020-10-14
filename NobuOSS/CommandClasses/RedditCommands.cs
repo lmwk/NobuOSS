@@ -25,11 +25,11 @@ namespace Nobu.RedditClasses
             //Link of a tutorial in the github repo
             var r = new RedditClient("PlaceHolder App ID", "PlaceHolder Refresh token", "PlaceHolder App Secret");
 
-            var dankmemes = r.Subreddit("dankmemes").About();
+            var subreddit = r.Subreddit("dankmemes").About();
 
             var rnd = new Random();
 
-            var toppost = dankmemes.Posts.Hot[rnd.Next(0, 100)];
+            var toppost = subreddit.Posts.Hot[rnd.Next(0, 100)];
 
             var post = toppost.Listing;
 
@@ -69,11 +69,11 @@ namespace Nobu.RedditClasses
         {
             var r = new RedditClient("PlaceHolder App ID", "PlaceHolder Refresh token", "PlaceHolder App Secret");
 
-            var dankmemes = r.Subreddit("dankmemes").About();
+            var subreddit = r.Subreddit("memes").About();
 
             var rnd = new Random();
 
-            var toppost = dankmemes.Posts.Hot[rnd.Next(0, 100)];
+            var toppost = subreddit.Posts.Hot[rnd.Next(0, 100)];
 
             var post = toppost.Listing;
 

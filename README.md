@@ -23,7 +23,7 @@ If you need help with the installation and setup of the bot I'll list in here:
 
 You should be all set with the basic setup.
 
-here are the docs: https://dsharpplus.emzi0767.com/api/DSharpPlus.html
+here are the docs for DsharpPlus: https://dsharpplus.emzi0767.com/api/DSharpPlus.html
 
 ________________________________________________________________________________
 REDDIT COMMANDS
